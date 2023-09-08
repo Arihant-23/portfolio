@@ -1,8 +1,6 @@
 import React from "react";
 import "./AboutContent.css";
 import { Link } from "react-router-dom";
-import conimg1 from "../assets/con.png";
-import conimg2 from "../assets/project2.png";
 
 const AboutContent = () => {
   return (
@@ -19,16 +17,6 @@ const AboutContent = () => {
           <button className="btn">Contact</button>
         </Link>
       </div>
-      {/* <div className="right">
-        <div className="img-container">
-          <div className="img-stack top">
-            <img src={conimg1} alt="img" />
-          </div>
-          <div className="img-stack bottom">
-            <img src={conimg2} alt="img" />
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
